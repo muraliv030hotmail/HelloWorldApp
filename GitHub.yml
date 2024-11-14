@@ -1,1 +1,7 @@
-
+jobs:
+- job: EchoJob
+  pool:
+    vmImage: 'ubuntu-latest'
+  steps:
+  - script: echo "Hello from the GitHub template!"
+    displayName: 'Echo Message'

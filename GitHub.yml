@@ -1,0 +1,4 @@
+jobs:
+  steps:
+  - script: echo "Hello, this is an echo message!"
+    displayName: 'Display Echo Message'
